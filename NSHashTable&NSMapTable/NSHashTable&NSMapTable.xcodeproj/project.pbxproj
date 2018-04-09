@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30A9BFAB207B4E35003BE739 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A9BFAA207B4E35003BE739 /* AppDelegate.m */; };
+		30A9BFAE207B4E35003BE739 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A9BFAD207B4E35003BE739 /* ViewController.m */; };
+		30A9BFB1207B4E35003BE739 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30A9BFAF207B4E35003BE739 /* Main.storyboard */; };
+		30A9BFB3207B4E35003BE739 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30A9BFB2207B4E35003BE739 /* Assets.xcassets */; };
+		30A9BFB6207B4E35003BE739 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30A9BFB4207B4E35003BE739 /* LaunchScreen.storyboard */; };
+		30A9BFB9207B4E35003BE739 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A9BFB8207B4E35003BE739 /* main.m */; };
+		30A9BFC3207B4E35003BE739 /* NSHashTable_NSMapTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A9BFC2207B4E35003BE739 /* NSHashTable_NSMapTableTests.m */; };
+		30A9BFCE207B4E35003BE739 /* NSHashTable_NSMapTableUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A9BFCD207B4E35003BE739 /* NSHashTable_NSMapTableUITests.m */; };
+		30A9BFDD207B4E7D003BE739 /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A9BFDC207B4E7D003BE739 /* People.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30A9BFBF207B4E35003BE739 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30A9BF9E207B4E35003BE739 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30A9BFA5207B4E35003BE739;
+			remoteInfo = "NSHashTable&NSMapTable";
+		};
+		30A9BFCA207B4E35003BE739 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30A9BF9E207B4E35003BE739 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30A9BFA5207B4E35003BE739;
+			remoteInfo = "NSHashTable&NSMapTable";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30A9BFA6207B4E35003BE739 /* NSHashTable&NSMapTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NSHashTable&NSMapTable.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30A9BFA9207B4E35003BE739 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		30A9BFAA207B4E35003BE739 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		30A9BFAC207B4E35003BE739 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		30A9BFAD207B4E35003BE739 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		30A9BFB0207B4E35003BE739 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30A9BFB2207B4E35003BE739 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30A9BFB5207B4E35003BE739 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30A9BFB7207B4E35003BE739 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30A9BFB8207B4E35003BE739 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		30A9BFBE207B4E35003BE739 /* NSHashTable&NSMapTableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSHashTable&NSMapTableTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30A9BFC2207B4E35003BE739 /* NSHashTable_NSMapTableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSHashTable_NSMapTableTests.m; sourceTree = "<group>"; };
+		30A9BFC4207B4E35003BE739 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30A9BFC9207B4E35003BE739 /* NSHashTable&NSMapTableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSHashTable&NSMapTableUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30A9BFCD207B4E35003BE739 /* NSHashTable_NSMapTableUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSHashTable_NSMapTableUITests.m; sourceTree = "<group>"; };
+		30A9BFCF207B4E35003BE739 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30A9BFDB207B4E7D003BE739 /* People.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = People.h; sourceTree = "<group>"; };
+		30A9BFDC207B4E7D003BE739 /* People.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = People.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30A9BFA3207B4E35003BE739 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30A9BFBB207B4E35003BE739 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30A9BFC6207B4E35003BE739 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30A9BF9D207B4E35003BE739 = {
+			isa = PBXGroup;
+			children = (
+				30A9BFA8207B4E35003BE739 /* NSHashTable&NSMapTable */,
+				30A9BFC1207B4E35003BE739 /* NSHashTable&NSMapTableTests */,
+				30A9BFCC207B4E35003BE739 /* NSHashTable&NSMapTableUITests */,
+				30A9BFA7207B4E35003BE739 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30A9BFA7207B4E35003BE739 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30A9BFA6207B4E35003BE739 /* NSHashTable&NSMapTable.app */,
+				30A9BFBE207B4E35003BE739 /* NSHashTable&NSMapTableTests.xctest */,
+				30A9BFC9207B4E35003BE739 /* NSHashTable&NSMapTableUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30A9BFA8207B4E35003BE739 /* NSHashTable&NSMapTable */ = {
+			isa = PBXGroup;
+			children = (
+				30A9BFA9207B4E35003BE739 /* AppDelegate.h */,
+				30A9BFAA207B4E35003BE739 /* AppDelegate.m */,
+				30A9BFAC207B4E35003BE739 /* ViewController.h */,
+				30A9BFAD207B4E35003BE739 /* ViewController.m */,
+				30A9BFAF207B4E35003BE739 /* Main.storyboard */,
+				30A9BFB2207B4E35003BE739 /* Assets.xcassets */,
+				30A9BFB4207B4E35003BE739 /* LaunchScreen.storyboard */,
+				30A9BFB7207B4E35003BE739 /* Info.plist */,
+				30A9BFB8207B4E35003BE739 /* main.m */,
+				30A9BFDB207B4E7D003BE739 /* People.h */,
+				30A9BFDC207B4E7D003BE739 /* People.m */,
+			);
+			path = "NSHashTable&NSMapTable";
+			sourceTree = "<group>";
+		};
+		30A9BFC1207B4E35003BE739 /* NSHashTable&NSMapTableTests */ = {
+			isa = PBXGroup;
+			children = (
+				30A9BFC2207B4E35003BE739 /* NSHashTable_NSMapTableTests.m */,
+				30A9BFC4207B4E35003BE739 /* Info.plist */,
+			);
+			path = "NSHashTable&NSMapTableTests";
+			sourceTree = "<group>";
+		};
+		30A9BFCC207B4E35003BE739 /* NSHashTable&NSMapTableUITests */ = {
+			isa = PBXGroup;
+			children = (
+				30A9BFCD207B4E35003BE739 /* NSHashTable_NSMapTableUITests.m */,
+				30A9BFCF207B4E35003BE739 /* Info.plist */,
+			);
+			path = "NSHashTable&NSMapTableUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30A9BFA5207B4E35003BE739 /* NSHashTable&NSMapTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30A9BFD2207B4E35003BE739 /* Build configuration list for PBXNativeTarget "NSHashTable&NSMapTable" */;
+			buildPhases = (
+				30A9BFA2207B4E35003BE739 /* Sources */,
+				30A9BFA3207B4E35003BE739 /* Frameworks */,
+				30A9BFA4207B4E35003BE739 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NSHashTable&NSMapTable";
+			productName = "NSHashTable&NSMapTable";
+			productReference = 30A9BFA6207B4E35003BE739 /* NSHashTable&NSMapTable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30A9BFBD207B4E35003BE739 /* NSHashTable&NSMapTableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30A9BFD5207B4E35003BE739 /* Build configuration list for PBXNativeTarget "NSHashTable&NSMapTableTests" */;
+			buildPhases = (
+				30A9BFBA207B4E35003BE739 /* Sources */,
+				30A9BFBB207B4E35003BE739 /* Frameworks */,
+				30A9BFBC207B4E35003BE739 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30A9BFC0207B4E35003BE739 /* PBXTargetDependency */,
+			);
+			name = "NSHashTable&NSMapTableTests";
+			productName = "NSHashTable&NSMapTableTests";
+			productReference = 30A9BFBE207B4E35003BE739 /* NSHashTable&NSMapTableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		30A9BFC8207B4E35003BE739 /* NSHashTable&NSMapTableUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30A9BFD8207B4E35003BE739 /* Build configuration list for PBXNativeTarget "NSHashTable&NSMapTableUITests" */;
+			buildPhases = (
+				30A9BFC5207B4E35003BE739 /* Sources */,
+				30A9BFC6207B4E35003BE739 /* Frameworks */,
+				30A9BFC7207B4E35003BE739 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30A9BFCB207B4E35003BE739 /* PBXTargetDependency */,
+			);
+			name = "NSHashTable&NSMapTableUITests";
+			productName = "NSHashTable&NSMapTableUITests";
+			productReference = 30A9BFC9207B4E35003BE739 /* NSHashTable&NSMapTableUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30A9BF9E207B4E35003BE739 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = magic;
+				TargetAttributes = {
+					30A9BFA5207B4E35003BE739 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					30A9BFBD207B4E35003BE739 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 30A9BFA5207B4E35003BE739;
+					};
+					30A9BFC8207B4E35003BE739 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 30A9BFA5207B4E35003BE739;
+					};
+				};
+			};
+			buildConfigurationList = 30A9BFA1207B4E35003BE739 /* Build configuration list for PBXProject "NSHashTable&NSMapTable" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30A9BF9D207B4E35003BE739;
+			productRefGroup = 30A9BFA7207B4E35003BE739 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30A9BFA5207B4E35003BE739 /* NSHashTable&NSMapTable */,
+				30A9BFBD207B4E35003BE739 /* NSHashTable&NSMapTableTests */,
+				30A9BFC8207B4E35003BE739 /* NSHashTable&NSMapTableUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30A9BFA4207B4E35003BE739 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30A9BFB6207B4E35003BE739 /* LaunchScreen.storyboard in Resources */,
+				30A9BFB3207B4E35003BE739 /* Assets.xcassets in Resources */,
+				30A9BFB1207B4E35003BE739 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30A9BFBC207B4E35003BE739 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30A9BFC7207B4E35003BE739 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30A9BFA2207B4E35003BE739 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30A9BFDD207B4E7D003BE739 /* People.m in Sources */,
+				30A9BFAE207B4E35003BE739 /* ViewController.m in Sources */,
+				30A9BFB9207B4E35003BE739 /* main.m in Sources */,
+				30A9BFAB207B4E35003BE739 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30A9BFBA207B4E35003BE739 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30A9BFC3207B4E35003BE739 /* NSHashTable_NSMapTableTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30A9BFC5207B4E35003BE739 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30A9BFCE207B4E35003BE739 /* NSHashTable_NSMapTableUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30A9BFC0207B4E35003BE739 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30A9BFA5207B4E35003BE739 /* NSHashTable&NSMapTable */;
+			targetProxy = 30A9BFBF207B4E35003BE739 /* PBXContainerItemProxy */;
+		};
+		30A9BFCB207B4E35003BE739 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30A9BFA5207B4E35003BE739 /* NSHashTable&NSMapTable */;
+			targetProxy = 30A9BFCA207B4E35003BE739 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		30A9BFAF207B4E35003BE739 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30A9BFB0207B4E35003BE739 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30A9BFB4207B4E35003BE739 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30A9BFB5207B4E35003BE739 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30A9BFD0207B4E35003BE739 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		30A9BFD1207B4E35003BE739 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30A9BFD3207B4E35003BE739 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "NSHashTable&NSMapTable/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.magic.NSHashTable-NSMapTable";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30A9BFD4207B4E35003BE739 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "NSHashTable&NSMapTable/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.magic.NSHashTable-NSMapTable";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		30A9BFD6207B4E35003BE739 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "NSHashTable&NSMapTableTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.magic.NSHashTable-NSMapTableTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSHashTable&NSMapTable.app/NSHashTable&NSMapTable";
+			};
+			name = Debug;
+		};
+		30A9BFD7207B4E35003BE739 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "NSHashTable&NSMapTableTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.magic.NSHashTable-NSMapTableTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSHashTable&NSMapTable.app/NSHashTable&NSMapTable";
+			};
+			name = Release;
+		};
+		30A9BFD9207B4E35003BE739 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "NSHashTable&NSMapTableUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.magic.NSHashTable-NSMapTableUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "NSHashTable&NSMapTable";
+			};
+			name = Debug;
+		};
+		30A9BFDA207B4E35003BE739 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "NSHashTable&NSMapTableUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.magic.NSHashTable-NSMapTableUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "NSHashTable&NSMapTable";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30A9BFA1207B4E35003BE739 /* Build configuration list for PBXProject "NSHashTable&NSMapTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30A9BFD0207B4E35003BE739 /* Debug */,
+				30A9BFD1207B4E35003BE739 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30A9BFD2207B4E35003BE739 /* Build configuration list for PBXNativeTarget "NSHashTable&NSMapTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30A9BFD3207B4E35003BE739 /* Debug */,
+				30A9BFD4207B4E35003BE739 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30A9BFD5207B4E35003BE739 /* Build configuration list for PBXNativeTarget "NSHashTable&NSMapTableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30A9BFD6207B4E35003BE739 /* Debug */,
+				30A9BFD7207B4E35003BE739 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30A9BFD8207B4E35003BE739 /* Build configuration list for PBXNativeTarget "NSHashTable&NSMapTableUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30A9BFD9207B4E35003BE739 /* Debug */,
+				30A9BFDA207B4E35003BE739 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30A9BF9E207B4E35003BE739 /* Project object */;
+}
